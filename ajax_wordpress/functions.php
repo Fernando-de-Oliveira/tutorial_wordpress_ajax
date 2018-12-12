@@ -43,7 +43,7 @@ function load_posts() {
 
 	// modificados do loop
 	query_posts(array(
-		'post_por_page' => $numPosts,
+		'post_per_page' => $numPosts,
 		'paged' => $page,
 		'post_status' => 'publish',
 		'post_type' => 'post'
